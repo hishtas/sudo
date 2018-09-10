@@ -1,3 +1,9 @@
+
+echo " HI I AM SATHISH "
+echo " HACKERS NOW START UR FUN HACK"
+echo " u root ur phone  "
+echo " u can root the phone https://kingo-root.en.uptodown.com/android/download "
+
 #!/data/data/com.termux/files/usr/bin/bash
 
 #set colored=true to turn on colored error messages
@@ -5,6 +11,8 @@
 colored=true
 
 #red=1 green=2 yellow=3
+#red=1 green=2 bule=3
+
 color() {
 	if [ $colored == "true" ]; then
 		echo "$(tput setaf $1)${*:2}$(tput sgr0)"
@@ -19,6 +27,8 @@ show_usage() {
 	echo -e "  `color 2 Drop to root shell`\n"
 	echo 'sudo <command> [<args>]'
 	echo -e "  `color 2 Run command as root with optional arguments`\n"
+
+	echo -e "  `color 2 Run command as root with option arguments`\n"
 	exit
 }
 
